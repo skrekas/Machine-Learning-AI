@@ -6,7 +6,11 @@
 
 Regression models (linear, non-linear etc.) map the relationship between one or more independent variables (e.g. $X_1, X_2, ..., X_n$) with a dependent/target or response variable (e.g. $Y$). 
 
-The example adopted herein, draws data from  <a href="https://www.kaggle.com/">Kaggle's</a> example about <a href="https://www.kaggle.com/datasets/andonians/random-linear-regression">Linear Reression</a>.
+The example adopted herein in order to compute regression relative metrics, draws data from  <a href="https://www.kaggle.com/">Kaggle's</a> example about <a href="https://www.kaggle.com/datasets/andonians/random-linear-regression">Linear Reression</a>.
+
+<img src="pics/x-y.png" width=500>
+
+#### 1. Introduction 
 
 #### 2. Metrics
 ##### 2.1 Mean Squared Error (MSE)
