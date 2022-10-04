@@ -1,8 +1,8 @@
-## Code on Machine Learning and AI
+### Examples with code on Machine Learning and AI
 
-### Topics covered
+#### Topics covered
 
-#### Machine Learning
+##### Machine Learning
 - Performance metrics
 
-#### Artificial Intelligence - AI
+##### Artificial Intelligence - AI
