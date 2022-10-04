@@ -1,2 +1,8 @@
-# Machine-Learning
-Interesting note on Machine Learning
+## Code on Machine Learning and AI
+
+### Topics covered
+
+#### Machine Learning
+- Performance metrics
+
+#### Artificial Intelligence - AI
