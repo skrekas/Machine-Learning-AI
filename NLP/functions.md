@@ -1,3 +1,6 @@
+USEFUL function for NLP
+---
+
 Useful function to remove unwanted characters from some text.
 ```python
 def remove_chars(text):
