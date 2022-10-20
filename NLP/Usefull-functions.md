@@ -1,3 +1,4 @@
+Useful function to remove unwanted characters from some text.
 ```python
 def remove_chars(text):
     chars_to_remove = [
