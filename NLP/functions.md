@@ -3,7 +3,21 @@
 
 Useful function to remove unwanted characters from some text.
 ```python
+# df['Content'][1].strip("\r")
+
 def remove_chars(text):
+    """
+    Removes unwanted characters defined inthe chars_to_remove list, from
+    a string. Can help with processing a text document like a CV for NLP tasks.
+    
+    Params
+    ------
+    text: (str) The text from which to remove the characters/
+    
+    Returns
+    -------
+    text: (str) The text without the unwanted characters.
+    """
     chars_to_remove = [
         '\s{2,}', '\uf0b7', '–', '/', ':', '%', '“', '”', r"\(", r"\)",
         r"\+", r"\.", r"\,", r"\'", r"\|", r"\▪", r'\"', r'\-', r'\&', r'\²',
@@ -23,4 +37,7 @@ def remove_chars(text):
     for c in chars_to_remove:
         text = re.sub(c, ' ', text)
     return text
+s = df_['Content'].iloc[1]
+print(s)
+remove_chars(s)
 ```
