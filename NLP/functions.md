@@ -3,6 +3,8 @@
 
 Useful function to remove unwanted characters from some text.
 ```python
+import re
+
 def remove_chars(text):
     """
     Removes unwanted characters defined inthe chars_to_remove list, from
