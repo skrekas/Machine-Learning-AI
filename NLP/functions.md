@@ -37,7 +37,4 @@ def remove_chars(text):
     for c in chars_to_remove:
         text = re.sub(c, ' ', text)
     return text
-s = df_['Content'].iloc[1]
-print(s)
-remove_chars(s)
 ```
