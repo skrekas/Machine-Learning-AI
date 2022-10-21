@@ -1,4 +1,4 @@
-#### Useful function for NLP
+#### Useful functions for NLP
 ---
 
 Useful function to remove unwanted characters from some text.
