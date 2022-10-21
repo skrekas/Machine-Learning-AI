@@ -7,6 +7,7 @@ def remove_chars(text):
     """
     Removes unwanted characters defined inthe chars_to_remove list, from
     a string. Can help with processing a text document like a CV for NLP tasks.
+    It also removes numbers and email addresses.
     
     Params
     ------
