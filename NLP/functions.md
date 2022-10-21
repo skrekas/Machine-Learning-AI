@@ -32,7 +32,7 @@ def remove_chars(text):
         r'\xad301', r'\xad5', r'\xad80', r'\xad4816', r'\xad', r'\〒', r'\uf06c', r'\❑',
         r'\Ø', r'\◆', r'\✉', r'\➔', r'\●', r'\\', r'\📞', r'\📧', r'\🏠', r'\›', r'\│',
         r'\│', r'\~', r'\<', r'\>', r'\!', r'\♦', r'\❖', r'\—', r'\★', r'\uf07d', r'\uf02a',
-        r'\uf02a', r'\uf0ad', r'\uf03a', r'\uf029', r'\x00',
+        r'\uf02a', r'\uf0ad', r'\uf03a', r'\uf029', r'\x00', '\ufb01', '\ufb00', '\ufb02',
         " \d+", r'[A-Za-z0-9]*@[A-Za-z]*\.?[A-Za-z0-9]*',
     ]
     for c in chars_to_remove:
