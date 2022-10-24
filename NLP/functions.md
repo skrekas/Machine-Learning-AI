@@ -1,7 +1,7 @@
 #### Useful functions for NLP
 ---
 
-Useful function to remove unwanted characters from some text.
+1. Useful function to remove unwanted characters from some text.
 ```python
 import re
 
@@ -38,4 +38,33 @@ def remove_chars(text):
     for c in chars_to_remove:
         text = re.sub(c, ' ', text)
     return text
+```
+2. Generate n-grams.
+```python
+def nGrams(text, n=2, words_length=0):
+    """
+    Create grams of order n.
+    
+    Parameters:
+    ----------
+    text: (str) The text that the n-grams will be generated for.
+    n: (int) The order of the n-gram (eg. 3 for 3-grams) - Default: 2
+    words_legnth: (int) The min length of words to be considered.
+    
+    Returns:
+    --------
+    ngrams: (list) A list of the n order grams.
+    """
+    ngrams = []
+    words = text.split(" ")
+    valid_words = []
+    for word in words:
+        if len(word) > words_length:
+            valid_words.append(word)
+    for i in range(len(valid_words)-(n-1)):
+        s = ""
+        for j in range(n):
+            s += valid_words[i+j] + " "
+        ngrams.append(s)
+    return ngrams
 ```
