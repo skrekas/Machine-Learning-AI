@@ -1,7 +1,7 @@
 #### Useful functions for NLP
 ---
 
-1. Useful function to remove unwanted characters from some text.
+1. Remove unwanted characters from text.
 ```python
 import re
 
