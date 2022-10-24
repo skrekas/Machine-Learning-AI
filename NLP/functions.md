@@ -1,4 +1,4 @@
-#### Useful functions for NLP
+### NLP functions
 
 - [Remove characters from text](#remove-characters-from-text)
 - [Generate n-grams](#generate-n-grams)
