@@ -52,8 +52,8 @@ def nGrams(text, n=2, words_length=0):
     Parameters:
     ----------
     text: (str) The text that the n-grams will be generated for.
-    n: (int) The order of the n-gram (eg. 3 for 3-grams) - Default: 2
-    words_legnth: (int) The min length of words to be considered.
+    n: (int) The order of the n-gram (eg. 3 for 3-grams). - Default: 2
+    words_legnth: (int) The min length of words to be considered. - Default: 0 (all words are considered)
     
     Returns:
     --------
