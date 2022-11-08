@@ -1,4 +1,4 @@
-#### Functions
+### Functions
 Plot the distribution of values in a Pandas DataFrame
 ```python
 from plotly.subplots import make_subplots
@@ -12,7 +12,6 @@ def df_dist(csv_path, threshold=50, ncols=2):
                       of categories is above this threshold, the column is ignored since
                       the plot bar will be confusing/unclear.
     :param ncols: The number of column in the plot. Rows are adjusted accordingly.
-    :return: None
     """
     # Find columns to keep
     keep_cols = []
