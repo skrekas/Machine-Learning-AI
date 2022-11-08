@@ -1,6 +1,7 @@
 ### Functions
 Plot the distribution of values in a Pandas DataFrame
 ```python
+import pandas as pd
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 
